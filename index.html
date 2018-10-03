@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap 4</title>
+
+    <!-- Stylesheet -->
+</head>
+<body>
+    <div class="container">
+        <!-- ----------------------------------------------------
+            Heading & Basic Typography 
+        --------------------------------------------------------->
+        <div>
+            <!-- Headeing   -->
+            <h1>Heading one</h1>
+            <h2>Heading one</h2>
+            <h3>Heading one</h3>
+            <h4 class="h1 text-primary">Heading one</h4>
+            <h5>Heading one</h5>
+            <h6 class="text-warning">Heading one</h6>
+            <!-- Display Classes -->
+            <h1 class="display-1">Heading one</h1>
+            <h2 class="display-2">Heading one</h2>
+            <h3 class="display-3">Heading one</h3>
+            <h4 class="display-4 text-success">Heading one</h4>
+            <!-- Paragraph -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum suscipit adipisci quis? Rem quisquam dolores commodi tempora nobis harum ea necessitatibus officiis, sit repudiandae, aspernatur laudantium. Voluptate beatae praesentium repudiandae.</p>
+            <!-- Lead -->
+            <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quasi repellat, totam neque cupiditate voluptatibus mollitia accusantium corrupti inventore nostrum in rem! Magni molestias blanditiis tenetur maxime rerum iusto quidem?</p>
+            <!-- Style Class -->
+            <p class="font-weight-bold">bold text</p>
+            <p class="font-weight-normal">normal text</p>
+            <p class="font-italic">italic text</p>
+            <!-- Text Transform -->
+            <p class="text-lowercase">MAKE LOWERCASE</p>
+            <p class="text-uppercase">make uppercase text</p>
+            <p class="text-capitalize">make capitalize text</p>
+            <!-- Blockquote -->
+            <blockquote class="blockquote">
+                <p>this is blockquote</p>
+            </blockquote>
+            <!-- Blockquote Right Aligned -->
+            <blockquote class="blockquote text-right">
+                <p>this is blockquote right aligned</p>
+            </blockquote>
+            <!-- Blockquote with Footer -->
+            <blockquote class="blockquote text-right">
+                <p>this is blockquote right aligned with footer & lorem ipsum sit amet dolor</p>
+                <footer class="blockquote-footer">Some famous in <cite title="asaduzzaman">Asaduzzaman</cite></footer>
+            </blockquote>
+            <!-- List -->
+            <ul class="list-unstyled">
+                <li>home</li>
+                <li>about us</li>
+                <li>services</li>
+                <li>blog</li>
+                <li>contact</li>
+                <li>share</li>
+            </ul>
+            <!-- List Inline-->
+            <ul class="list-inline">
+                <li class="list-inline-item">home</li>
+                <li class="list-inline-item">about us</li>
+                <li class="list-inline-item">services</li>
+                <li class="list-inline-item">blog</li>
+                <li class="list-inline-item">contact</li>
+                <li class="list-inline-item">share</li>
+            </ul>
+        </div>
+
+        <!-- ----------------------------------------------------
+            Text Alignment & Responsive Alignment
+        --------------------------------------------------------->
+        <div>
+            <!-- Justify -->
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, veniam cupiditate, fugit pariatur quaerat laborum iure excepturi facere suscipit, labore quia quasi nisi hic enim a blanditiis debitis? Voluptate, aut!</p>
+            <br>
+            <br>
+            <!-- Alignment -->
+            <p class="text-left">Text aligned left</p>
+            <p class="text-center">Text aligned center</p>
+            <p class="text-right">Text aligned right</p>
+            <!-- Responsive Align Right-->
+            <p class="text-sm-right">right aligned on small or larger</p>
+            <p class="text-md-right">right aligned on medium or larger</p>
+            <p class="text-lg-right">right aligned on large or larger</p>
+            <p class="text-xl-right">right aligned on xl or larger</p>
+            <!-- Responsive Align Center-->
+            <p class="text-sm-center">center aligned on small or larger</p>
+            <p class="text-md-center">center aligned on medium or larger</p>
+            <p class="text-lg-center">center aligned on large or larger</p>
+            <p class="text-xl-center">center aligned on xl or larger</p>
+            <!-- Responsive Align Left-->
+            <p class="text-sm-left">left aligned on small or larger</p>
+            <p class="text-md-left">left aligned on medium or larger</p>
+            <p class="text-lg-left">left aligned on large or larger</p>
+            <p class="text-xl-left">left aligned on xl or larger</p>
+            <!-- Vertical Alignment -->
+            <span class="align-baseline">baseline</span>
+            <span class="align-top">top</span>
+            <span class="align-bottom">bottom</span>
+            <span class="align-middle">middle</span>
+            <span class="align-text-top">text-top</span>
+            <span class="align-text-bottom">text-bottom</span>
+            <br>
+            <br>
+            <!-- Turn Block to Inline -->
+            <h1 class="bg-success text-light d-inline">hello</h1>
+            <h2 class="bg-success text-light d-inline">goodbye</h2>
+            <br>
+            <br>
+            <!-- Turn Inline to Block -->
+            <span class="bg-success text-light d-block">make this span to block</span>
+            <br>
+            <br>
+            <!-- Inline Block -->
+            <div class="clearfix">
+                <div class="bg-info text-light d-inline-block">
+                    <h2>hello</h2>
+                    this is inline
+                </div>
+                <div class="bg-primary text-light d-inline-block">
+                    <h2>hello2</h2>
+                    this is inline
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Floats & Fixed Positions
+        --------------------------------------------------------->
+        <div>
+            <!-- Floats -->
+            <div class="float-left">float left</div>
+            <br>
+            <div class="float-right">float right</div>
+            <br>
+            <div class="flaot-none">float none</div>
+            <br>
+            <!-- Responsive Floats -->
+            <div class="float-sm-right">float left small</div>
+            <br>
+            <div class="float-md-right">float right medium</div>
+            <br>
+            <div class="float-lg-right">float none large</div>
+            <br>
+            <!-- Clearfix -->
+            <div class="bg-primary clearfix">
+                <button class="float-left">Float left</button>
+                <button class="float-right">Float right</button>
+            </div>
+            <br><br>
+            <!-- Fixed -->
+            <h2 class="text-danger fixed-top">Fixed Top</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <!-- Sticky -->
+            <h2 class="text-primary sticky-top">sticky Top</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias expedita voluptatum, reiciendis maxime nihil omnis a exercitationem, natus asperiores consequuntur, quasi modi accusamus iusto consequatur ab repellat sequi dolorem similique?</p>
+            <!-- Fixed Bottom -->
+            <div class="fixed-bottom">
+                <h2 class="text-warning">Fixed me in bottom</h2>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Color & Background
+        --------------------------------------------------------->
+        <div>
+            <!-- Color -->
+            <p class="text-primary">text color</p>
+            <p class="text-secodary">text color</p>
+            <p class="text-info">text color</p>
+            <p class="text-warning">text color</p>
+            <p class="text-danger">text color</p>
+            <p class="text-success">text color</p>
+            <p class="text-light">text color</p>
+            <p class="text-dark">text color</p>
+            <p class="text-white">text color</p>
+            <!-- Background -->
+            <p class="bg-danger text-primary">text color</p>
+            <p class="bg-success text-secodary">text color</p>
+            <p class="bg-white text-info">text color</p>
+            <p class="bg-warning text-warning">text color</p>
+            <p class="bg-info text-danger">text color</p>
+            <p class="bg-secondary text-success">text color</p>
+            <p class="bg-dark text-light">text color</p>
+            <p class="bg-light text-dark">text color</p>
+            <p class="bg-primary text-white">text color</p>
+            <!-- Invisible -->
+            <p class="bg-primary text-white invisible">text color</p>
+        </div>
+        <!-- ----------------------------------------------------
+            Margin & Padding
+        --------------------------------------------------------->
+        <div>
+            <!-- Margin Bottom -->
+            <h1 class="bg-info mb-0">margin bottom 0</h1>
+            <h1 class="bg-info mb-1">margin bottom 1</h1>
+            <h1 class="bg-info mb-2">margin bottom 2</h1>
+            <h1 class="bg-info mb-3">margin bottom 3</h1>
+            <h1 class="bg-info mb-4">margin bottom 4</h1>
+            <h1 class="bg-info mb-5">margin bottom 5</h1>
+            <!-- Margin Top -->
+            <h1 class="bg-info mt-0">margin top 0</h1>
+            <h1 class="bg-info mt-1">margin top 1</h1>
+            <h1 class="bg-info mt-2">margin top 2</h1>
+            <h1 class="bg-info mt-3">margin top 3</h1>
+            <h1 class="bg-info mt-4">margin top 4</h1>
+            <h1 class="bg-info mt-5">margin top 5</h1>
+            <!-- Margin right & Left-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam libero officia quos labore ad placeat impedit debitis ex explicabo tenetur. Tempore aliquid doloribus eaque assumenda libero mollitia dolores quia. Ad.   <span class="bg-primary mr-5">margin right 5</span> expedita eum excepturi saepe dolor assumenda eos doloremque, perferendis, <span class="bg-info ml-5">margin left 5</span> dolorem consequuntur sit. Alias, ipsa deserunt commodi accusantium corporis cupiditate iure?</p>
+            <!-- Margin X & Y -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam libero officia quos labore ad placeat impedit debitis ex explicabo tenetur. Tempore aliquid doloribus eaque assumenda libero mollitia dolores quia. Ad.   <span class="bg-primary mx-5">margin left & right 5</span> expedita eum excepturi saepe dolor assumenda eos doloremque, perferendis, <span class="bg-info my-5 d-inline-block">margin top & bottom 5</span> dolorem consequuntur sit. Alias, ipsa deserunt commodi accusantium corporis cupiditate iure?</p>
+            <!-- Padding Bottom -->
+            <h1 class="bg-info pb-0">Padding bottom 0</h1>
+            <h1 class="bg-info pb-1">Padding bottom 1</h1>
+            <h1 class="bg-info pb-2">Padding bottom 2</h1>
+            <h1 class="bg-info pb-3">Padding bottom 3</h1>
+            <h1 class="bg-info pb-4">Padding bottom 4</h1>
+            <h1 class="bg-info pb-5">Padding bottom 5</h1>
+            <!-- Padding Top -->
+            <h1 class="bg-info pt-0">Padding top 0</h1>
+            <h1 class="bg-info pt-1">Padding top 1</h1>
+            <h1 class="bg-info pt-2">Padding top 2</h1>
+            <h1 class="bg-info pt-3">Padding top 3</h1>
+            <h1 class="bg-info pt-4">Padding top 4</h1>
+            <h1 class="bg-info pt-5">Padding top 5</h1>
+            <!-- Padding right & Left-->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam libero officia quos labore ad placeat impedit debitis ex explicabo tenetur. Tempore aliquid doloribus eaque assumenda libero mollitia dolores quia. Ad.   <span class="bg-primary pr-5">margin right 5</span> expedita eum excepturi saepe dolor assumenda eos doloremque, perferendis, <span class="bg-info pl-5">margin left 5</span> dolorem consequuntur sit. Alias, ipsa deserunt commodi accusantium corporis cupiditate iure?</p>
+            <!-- Margin X & Y -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore reiciendis, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam libero officia quos labore ad placeat impedit debitis ex explicabo tenetur. Tempore aliquid doloribus eaque assumenda libero mollitia dolores quia. Ad.   <span class="bg-primary px-5">margin left & right 5</span> expedita eum excepturi saepe dolor assumenda eos doloremque, perferendis, <span class="bg-info py-5 d-inline-block">margin top & bottom 5</span> dolorem consequuntur sit. Alias, ipsa deserunt commodi accusantium corporis cupiditate iure?</p>
+        </div>
+        <!-- ----------------------------------------------------
+            Sizing & Border
+        --------------------------------------------------------->
+        <div>
+            <!-- Width 25% -->
+            <div class="bg-success w-25">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore veniam accusamus similique id libero ipsum in at sit, corporis deleniti quia consequuntur asperiores impedit magni dolor ea molestiae unde?
+            </div>
+            <!-- Width 50% -->
+            <div class="bg-primary w-50">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore veniam accusamus similique id libero ipsum in at sit, corporis deleniti quia consequuntur asperiores impedit magni dolor ea molestiae unde?
+            </div>
+            <!-- Width 75% -->
+            <div class="bg-success w-75">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore veniam accusamus similique id libero ipsum in at sit, corporis deleniti quia consequuntur asperiores impedit magni dolor ea molestiae unde?
+            </div>
+            <!-- Width 100% -->
+            <div class="bg-warning w-100">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore veniam accusamus similique id libero ipsum in at sit, corporis deleniti quia consequuntur asperiores impedit magni dolor ea molestiae unde?
+            </div>
+            <!-- Height Classes -->
+            <div style="height: 300px;border: 1px solid #333;">
+                <div class="d-inline-block bg-success h-25">Height 25</div>
+                <div class="d-inline-block bg-primary h-50">Height 50</div>
+                <div class="d-inline-block bg-success h-75">Height 75</div>
+                <div class="d-inline-block bg-primary h-100">Height 100</div>
+            </div>
+            <br><br>
+            <!-- Border -->
+            <div class="bg-light p-3 mb-2 border">regular</div>
+            <div class="bg-light p-3 mb-2 border-primary border">primary</div>
+            <div class="bg-light p-3 mb-2 border border-secondary">secondary</div>
+            <div class="bg-light p-3 mb-2 border border-warning">warning</div>
+            <div class="bg-light p-3 mb-2 border border-info">info</div>
+            <div class="bg-light p-3 mb-2 border border-danger">danger</div>
+            <div class="bg-light p-3 mb-2 border border-light">light</div>
+            <div class="bg-light p-3 mb-2 border border-dark">dark</div>
+            <div class="bg-light p-3 mb-2 border border-white">white</div>
+            <div class="bg-light p-3 mb-2 border border-primary border-bottom-0">border bottom none</div>
+            <div class="bg-light p-3 mb-2 border border-primary border-top-0">border top none</div>
+            <div class="bg-light p-3 mb-2 border border-primary border-left-0">border left none</div>
+            <div class="bg-light p-3 mb-2 border border-primary border-right-0">border right none</div>
+            <div class="bg-light p-3 mb-2 border border-primary rounded">ronded</div>
+            <div class="bg-light p-3 mb-2 border border-success rounded-top">ronded top</div>
+            <div style="height: 100px; width: 100px;" class="bg-success mb-2 border border-danger rounded-circle">ronded circle</div>
+        </div>
+        <!-- ----------------------------------------------------
+            Button & Button group
+        --------------------------------------------------------->
+        <div>
+            <button class="btn btn-primary text-capitalize">primary</button>
+            <button class="btn btn-secondary">secondary</button>
+            <button class="btn btn-info">info</button>
+            <button class="btn btn-warning">warning</button>
+            <button class="btn btn-success">success</button>
+            <button class="btn btn-light">light</button>
+            <button class="btn btn-dark">dark</button>
+            <button class="btn btn-danger text-uppercase">danger</button>
+            <br><br>
+            <!-- Button Tags -->
+            <a href="#" class="btn btn-primary">button link</a>
+            <input type="button" value="button" class="btn btn-success">
+            <input type="submit" value="submit" class="btn btn-info">
+            <input type="reset" vaulu="reset" class="btn btn-link">
+            <a href="#" class="btn btn-warning">link</a>
+            <br><br>
+            <!-- Button Outline -->
+            <button class="btn btn-outline-primary text-uppercase">primary</button>
+            <button class="btn btn-outline-secondary text-uppercase">secondary</button>
+            <button class="btn btn-outline-success text-uppercase">success</button>
+            <button class="btn btn-outline-info text-uppercase">info</button>
+            <button class="btn btn-outline-warning text-uppercase">warning</button>
+            <button class="btn btn-outline-danger text-uppercase">danger</button>
+            <button class="btn btn-outline-light text-uppercse">light</button>
+            <button class="btn btn-outline-dark text-uppercase">dark</button>
+            <br><br>
+            <!-- Button Outline -->
+            <button class="btn btn-outline-primary text-uppercase btn-lg">primary</button>
+            <button class="btn btn-outline-secondary text-uppercase btn-md">secondary</button>
+            <button class="btn btn-outline-success text-uppercase btn-sm">success</button>
+            <button class="btn btn-outline-info text-uppercase">info</button>
+            <button class="btn btn-outline-warning text-uppercase">warning</button>
+            <button class="btn btn-outline-danger text-uppercase">danger</button>
+            <button class="btn btn-outline-light text-uppercse">light</button>
+            <button class="btn btn-outline-dark text-uppercase">dark</button>
+            <br><br>
+            <!-- Button State -->
+            <button class="btn btn-primary">button</button>
+            <button class="btn btn-primary active">button</button>
+            <button class="btn btn-primary button-toggle" data-toggle="button">button</button>
+            <br><br>
+            <!-- Button Dropdown -->
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">dropdown</button>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item">link 2</li>
+                    <li class="dropdown-item">link 3</li>
+                </ul>
+            </div>
+            <br><br>
+            <!-- Button Group -->
+            <div class="btn-group">
+                <button class="btn btn-primary">button</button>
+                <button class="btn btn-success">button</button>
+            </div>
+            <br><br>
+            <!-- Split Button Dropdown -->
+            <div class="btn-group">
+                <button class="btn btn-primary">button</button>
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">dropdown</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">link3</a>
+                    <a href="#" class="dropdown-item">link 1</a>
+                </div>
+            </div>
+            <br><br>
+            <!-- Button Toolbar -->
+            <div class="btn-toolbar">
+                <div class="btn-group mr-2">
+                    <button class="btn btn-primary">1</button>
+                    <button class="btn btn-primary">2</button>
+                    <button class="btn btn-primary">3</button>
+                </div>
+                <div class="btn-group mr-2">
+                    <button class="btn btn-primary">1</button>
+                    <button class="btn btn-primary">2</button>
+                </div>
+                <div class="btn-group mr-2">
+                    <button class="btn btn-primary">1</button>
+                </div>
+            </div>
+            <br><br>
+            <!-- Vertical Button Group -->
+            <div class="btn-group-vertical">
+                <button class="btn btn-primary">1</button>
+                    <button class="btn btn-primary">2</button>
+                    <button class="btn btn-primary">3</button>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Navbar Nav
+        --------------------------------------------------------->
+        <div>
+            <br><br>
+            <!-- Simple Navbar -->
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand text-success">Boot</a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#" class="nav-link">home</a> </li>
+                        <li class="nav-item"><a href="#" class="nav-link">about us</a> </li>
+                        <li class="nav-item"><a href="#" class="nav-link">blog</a> </li>
+                        <li class="nav-item"><a href="#" class="nav-link">contact</a> </li>
+                    </ul>
+                </div>
+            </nav>
+            <br><br>
+            <!-- Navbar with collpase Icon -->
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand text-primary">Boot 2</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navCollapse"><span class="navbar-toggler-icon"></span></button>
+                    <div class="navbar-collapse collapse" id="navCollapse">
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">about us</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar with Form -->
+            <br><br>
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand">Boot 3</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navMenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                        </ul>
+                    </div>
+                    <form action="#" class="form-inline">
+                        <input type="text" placeholder="search" class="form-control mr-2">
+                        <input type="submit" value="search" class="btn btn-outline-primary">
+                    </form>
+                </div>
+            </nav>
+            <br><br>
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+                <div class="container">
+                    <a href="#" class="navbar-brand">Boot 4</a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#boot4"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="boot4">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">service</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                        </ul>
+                        <form action="#" class="form-inline">
+                            <input type="text" placeholder="search" class="form-control mr-2">
+                            <input type="submit" value="search" class="btn btn-outline-light">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <br><br>
+            <nav class="navbar">
+                <div class="container">
+                    <a href="#" class="navbar-brand">boot 5</a>
+                    <ul class="nav ">
+                        <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <br><br>
+        </div>
+        <!-- ----------------------------------------------------
+            List Groups & Badges
+        --------------------------------------------------------->
+        <div>
+            <!-- List Group -->
+            <ul class="list-group">
+                <li class="list-group-item list-group-item">amar nam bangladesh</li>
+                <li class="list-group-item list-group-item">amar nam bangladesh</li>
+                <li class="list-group-item list-group-item">amar nam bangladesh</li>
+                <li class="list-group-item list-group-item">amar nam bangladesh</li>
+                <li class="list-group-item list-group-item">amar nam bangladesh</li>
+                <li class="list-group-item list-group-item">amar nam bangladesh</li>
+            </ul>
+            <br><br>
+            <!-- List Group with Links -->
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">amar nam bangladesh</a>
+                <a href="#" class="list-group-item list-group-item-action">amar nam bangladesh</a>
+                <a href="#" class="list-group-item list-group-item-action">amar nam bangladesh</a>
+                <a href="#" class="list-group-item list-group-item-action">amar nam bangladesh</a>
+                <a href="#" class="list-group-item list-group-item-action">amar nam bangladesh</a>
+                <a href="#" class="list-group-item list-group-item-action">amar nam bangladesh</a>
+            </div>
+            <br><br>
+            <!-- List Group with Contextual Classes -->
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">amar nam dev</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">amar nam dev</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-info">amar nam dev</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">amar nam dev</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-warning">amar nam dev</a>
+            </div>
+            <br><br>
+            <!-- List group with javascript Behaviour -->
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group">
+                        <a href="#lOne" class="list-group-item list-group-item-action active" data-toggle="list" role="tab">home</a>
+                        <a href="#lTwo" class="list-group-item list-group-item-action" data-toggle="list" role="tab">about</a>
+                        <a href="#lThree" class="list-group-item list-group-item-action" data-toggle="list" role="tab">blog</a>
+                        <a href="#lFour" class="list-group-item list-group-item-action" data-toggle="list" role="tab">contact</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content">
+                        <div class="tab-pane active fade show" role="tabpanel" id="lOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus impedit itaque id quibusdam est quis consequuntur, ullam totam natus nihil quia facere? Repellat voluptates modi repellendus eos enim rerum?</div>
+                        <div class="tab-pane fade" role="tabpanel" id="lTwo"> ipsum dolor sit amet consectetur adipisicing elit. Dicta temporibus impedit itaque id quibusdam est quis consequuntur, ullam totam natus nihil quia facere? Repellat voluptates modi repellendus eos enim rerum?</div>
+                        <div class="tab-pane fade" role="tabpanel" id="lThree">dolor sit amet consectetur adipisicing elit. Dicta temporibus impedit itaque id quibusdam est quis consequuntur, ullam totam natus nihil quia facere? Repellat voluptates modi repellendus eos enim rerum?</div>
+                        <div class="tab-pane fade" role="tabpanel" id="lFour">sit amet consectetur adipisicing elit. Dicta temporibus impedit itaque id quibusdam est quis consequuntur, ullam totam natus nihil quia facere? Repellat voluptates modi repellendus eos enim rerum?</div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">1</li>
+                <li class="breadcrumb-item"><a href="#">2</a></li>
+                <li class="breadcrumb-item"><a href="#">3</a></li>
+            </ol>
+            <br><br>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item "><a href="#">1</a></li>
+                <li class="breadcrumb-item active">2</li>
+                <li class="breadcrumb-item"><a href="#">3</a></li>
+            </ol>
+        </div>
+        <!-- ----------------------------------------------------
+            Forms Input
+        --------------------------------------------------------->
+        <div>
+            <!-- Form -->
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Your Name" class="form-control form-control-sm" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter Email" id="email" class="form-control">
+                    <small class="form-text text-muted">Your email will not be shared with anyone</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" class="form-control" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Select</label>
+                    <select name="Select" id="gender" class="form-control custom-select">
+                        <option value="choice" selected>Choose</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="text-message" id="message" cols="30" rows="3" class="form-control" placeholder="Write Something"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="files">File Input</label>
+                    <input type="file" id="files" class="form-control-file">
+                    <small class="form-text text-muted">Max Size 3mb</small>
+                </div>
+            </form>
+            <br><br>
+
+
+            <fieldset class="form-group">
+                <legend>What are you using this service for</legend>
+                <div class="form-check">
+                    <label for="personal" class="form-check-label">
+                        <input type="radio" name="opt" class="form-check-input" id="personal">
+                        Personal
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label for="company" class="form-check-label">
+                        <input type="radio" name="opt" class="form-check-input" id="company">
+                        Company
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label for="free" class="form-check-label">
+                        <input type="radio" name="opt" class="form-check-input" id="free">
+                        Free Test
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label for="check" class="form-check-label">
+                        <input type="checkbox" id="check" class="form-check-input">
+                        Remember Me
+                    </label>
+                </div>
+            </fieldset>
+
+
+            <form action="#">
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fnames" placeholder="Your First Name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="names" placeholder="Your Last Name" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- ----------------------------------------------------
+            Input Groups
+        --------------------------------------------------------->
+        <div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-dove"></i></span>
+                </div>
+                <input type="text" placeholder="Name" class="form-control">
+            </div>
+            <br><br>
+            <div class="input-group">
+                <input type="text" placeholder="something" class="form-control">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fab fa-accusoft"></i></span>
+                </div>
+            </div>
+            <br><br>
+            <div class="input-group input-group-sm">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-dove"></i></span>
+                </div>
+                <input type="text" placeholder="many" class="form-control">
+                <div class="input-group-append">
+                    <span class="input-group-text"><i class="fab fa-accusoft"></i></span>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Alerts & Progress Bar
+        --------------------------------------------------------->
+        <div>
+            <br><br>
+        <div class='alert alert-primary'>
+            <strong>I'm strong</strong> Don't judge me! <a href="#" class="alert-link">Read More</a>
+        </div>
+        <br>
+        <div class="alert alert-success alert-dismissible">
+            <button class="close" data-dismiss="alert">&times;</button>
+            <strong>I'm strong</strong> Don't judge me! <a href="#" class="alert-link">Read More</a>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-success w-75">75%</div>
+        </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Tables
+        --------------------------------------------------------->
+        <div>
+            <br><br>
+        <!-- Table -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table Striped-->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table Hover-->
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table Dark-->
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Table Dark Striped-->
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Table Dark Striped Hover-->
+        <table class="table table-dark table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table Head Dark-->
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table Hover & Head Dark-->
+        <table class="table table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table contextual classes-->
+        <table class="table table-hover">
+            <thead>
+                <tr class="table-success">
+                    <th>No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>eMail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td>Asaduzzaman</td>
+                    <td>Sobuz</td>
+                    <td>lallsobuz@gmail.com</td>
+                </tr>
+                <tr class="bg-success text-light">
+                    <th>2</th>
+                    <td>Nazmun</td>
+                    <td>Nahar</td>
+                    <td>nazchowdhory@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Roza</td>
+                    <td>Zaman</td>
+                    <td>rozazaman@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <!-- Table responsive-->
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr class="table-success">
+                        <th>No.</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>eMail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>Asaduzzaman</td>
+                        <td>Sobuz</td>
+                        <td>lallsobuz@gmail.com</td>
+                    </tr>
+                    <tr class="bg-success text-light">
+                        <th>2</th>
+                        <td>Nazmun</td>
+                        <td>Nahar</td>
+                        <td>nazchowdhory@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Roza</td>
+                        <td>Zaman</td>
+                        <td>rozazaman@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Pagination
+        --------------------------------------------------------->
+        <br><br>
+        <div>
+            <ul class="pagination">
+                <li class="page-item disabled"><a class="page-link" href="#"><</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item"><a class="page-link" href="#">></a></li>
+            </ul>  
+        </div>
+        <br><br>
+        <!-- ----------------------------------------------------
+            Card
+        --------------------------------------------------------->
+        <div>
+            <!-- Card -->
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos maiores iure accusamus maxime quis reprehenderit temporibus itaque vel, possimus adipisci quas repellendus magni, totam eos. Et autem ratione obcaecati repellat.</p>
+                </div>
+            </div>
+            <br>
+            <!-- Card -->
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">This is title</h3>
+                    <h5 class="card-subtitle">This is also subtitle</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam ipsum tempore, nesciunt dolores saepe molestiae temporibus nam quae minima, consequuntur commodi, non explicabo modi fuga numquam voluptate unde autem perspiciatis?</p>
+                </div>
+            </div>
+            <br>
+            <!-- Card with Image -->
+            <div class="card w-50">
+                <img src="http://lorempixel.com/200/200" alt="image" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">This is title</h4>
+                    <h5 class="card-subtitle">This is subtitle</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, provident! Necessitatibus unde numquam, tempore ab ducimus ipsum quo aperiam dolore architecto doloribus laboriosam magnam exercitationem deserunt animi suscipit minus non.</p>
+                    <div class="btn btn-outline-primary btn-block">Send</div>
+                </div>
+            </div>
+            <br>
+            <!-- Card with Header -->
+            <div class="card w-50">
+                <div class="card-header">
+                    This is header
+                </div>
+                <img src="http://lorempixel.com/200/200" alt="image" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">This is title</h4>
+                    <h5 class="card-subtitle">This is subtitle</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, provident! Necessitatibus unde numquam, tempore ab ducimus ipsum quo aperiam dolore architecto doloribus laboriosam magnam exercitationem deserunt animi suscipit minus non.</p>
+                    <div class="btn btn-outline-primary btn-block">Send</div>
+                </div>
+            </div>
+            <br>
+            <!-- Card with Header -->
+            <div class="card w-50">
+                <img src="http://lorempixel.com/200/200" alt="image" class="card-img-top">
+
+                <div class="card-header">
+                    This is header
+                </div>
+                
+                <div class="card-body">
+                    <h4 class="card-title">This is title</h4>
+                    <h5 class="card-subtitle">This is subtitle</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, provident! Necessitatibus unde numquam, tempore ab ducimus ipsum quo aperiam dolore architecto doloribus laboriosam magnam exercitationem deserunt animi suscipit minus non.</p>
+                    <div class="btn btn-outline-primary btn-block">Send</div>
+                </div>
+            </div>
+            <br>
+            <!-- Card & List Groups -->
+            <div class="card w-50">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                </ul>
+            </div>
+            <br>
+            <!-- Card & List Groups with Featured-->
+            <div class="card w-50">
+                <div class="card-header">
+                    Featured
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                    <li class="list-group-item">this is list item</li>
+                </ul>
+            </div>
+            <br>
+            <!-- Card Kitchen sink -->
+            <div class="card w-50">
+                <img src="http://lorempixel.com/200/200" alt="card image" class="card-img-top">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <h6 class="card-subtitle">Card subtitle</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, est magni? Nulla minima itaque dolorem tempore hic cum nesciunt, quam, cupiditate quo dolores officiis ea iste reprehenderit nihil maiores dolor.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cars justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+            <br>
+            <!-- Card Header & Footer -->
+            <div class="card w-50 text-center">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title">Special title treatment</h3>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer">
+                    2 days ago
+                </div>
+            </div>
+            <br>
+            <!-- Card wiht Navigation -->
+            <div class="card w-75 text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#" class="nav-link active">Active</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">link</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link disabled">Disabled</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <br>
+            <!-- Image Overlay -->
+            <div class="card w-50 text-light">
+                <img src="http://lorempixel.com/200/200" alt="img" class="card-img">
+                <div class="card-img-overlay">
+                        <h6 class="card-title">Special title treatment</h6>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <br>
+            <!-- Card Background -->
+            <div class="card bg-primary text-white">
+                <div class="card-header">Header</div>
+                <div class="card-body">
+                    <h6 class="card-title">Special title treatment</h6>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-warning">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------------------------------------------
+            Carousel
+        --------------------------------------------------------->
+        <br><br>
+        <!-- Simple Carousel -->
+        <div>
+            <div id="slideOne" class="carousel slide w-50 m-auto" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="src/img/img-1.jpeg" alt="img one" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-2.jpg" alt="img two" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-3.jpg" alt="img two" class="d-block img-fluid">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- Carousel with Controler -->
+            <div id="slideTwo" class="carousel slide w-75 m-auto" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="src/img/img-3.jpg" alt="img" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-2.jpg" alt="img" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-1.jpeg" alt="img" class="d-block img-fluid">
+                    </div>
+                </div>
+                <a href="#slideTwo" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a href="#slideTwo" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+            </div>
+            <br><br>
+            <!-- Carousel with Controller & Indicator -->
+            <div class="carousel slide w-75 m-auto" id="slideThree" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#slideThree" data-slide-to="0"></li>
+                    <li data-target="#slideThree" data-slide-to="1"></li>
+                    <li data-target="#slideThree" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="src/img/img-2.jpg" alt="a" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-3.jpg" alt="a" class="d-block img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-1.jpeg" alt="a" class="d-block img-fluid">
+                    </div>
+                </div>
+                <a href="#slideThree" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a href="#slideThree" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+            </div>
+            <br><br>
+            <!-- Carousel with Caption -->
+            <div class="carousel slide w-75 m-auto" id="slideFour" data-ride="carousel">
+                <ol class="carousel-indicators" role="listbox">
+                    <li class="active" data-target="#slideFour" data-slide-to="0"></li>
+                    <li data-target="#slideFour" data-slide-to="2"></li>
+                    <li data-target="#slideFour" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="src/img/img-1.jpeg" alt="" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h3>This is title One</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Slide one</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-2.jpg" alt="" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h3>This is title Two</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Slide Two</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="src/img/img-3.jpg" alt="" class="d-block img-fluid">
+                        <div class="carousel-caption">
+                            <h3>This is title Three</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Slide Three</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#slideFour" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a href="#slideFour" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <!-- ----------------------------------------------------
+            Accordion
+        --------------------------------------------------------->
+        
+        <div>
+            <!-- Collapse -->
+            <button class="btn btn-primary d-block mb-3" data-toggle="collapse" data-target="#btn-collapse">Collapse</button>
+            <div class="collapse" id="btn-collapse">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse ad sapiente quae nobis possimus corporis voluptatem reiciendis itaque consequuntur ipsam est, laborum dolores fuga! Molestias alias odio perspiciatis eaque.
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <!-- Accordion -->
+            <div id="accordionEx" class="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne">
+                                Collapse Group Item #1
+                            </button>
+                        </h4>
+                    </div>
+                    <div class="collapse show" id="collapseOne" data-parent="#accordionEx">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quibusdam labore dicta eligendi quis eos repudiandae. Explicabo deserunt quia, quaerat nemo harum nam optio autem distinctio aliquam modi, deleniti odit.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h4 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo">
+                                Collapse Group Item #2
+                            </button>
+                        </h4>
+                    </div>
+                    <div class="collapse" id="collapseTwo" data-parent="#accordionEx">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae minima perspiciatis obcaecati laborum consequuntur animi repellat voluptas corrupti optio molestias, eius earum in minus neque commodi, illo sit maiores aspernatur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+
+
+
+
+
+        <br><br>
+        <br><br>
+        <br><br>
+    </div>
+
+
+    <!-- Script -->
+</body>
+</html>
